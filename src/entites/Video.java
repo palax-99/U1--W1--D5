@@ -38,6 +38,7 @@ public class Video extends ElementoMultimediale implements Riproducibile {
         return brightness;
     }
 
+    @Override
     public void play() {
 
         for (int contatore = 0; contatore < duration; contatore++) {

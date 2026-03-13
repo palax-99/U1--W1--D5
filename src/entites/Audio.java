@@ -24,6 +24,8 @@ public class Audio extends ElementoMultimediale implements Riproducibile {
         return quantity;
     }
 
+
+    @Override
     public void play() { //Metodo preso dall'interfaccia Riproducibile
         //L'utilizzo di questo metodo mi permette di stampare il titolo tante volte quanto la durata dell'audio
         //Dopo il titolo vengono stampati dei punti esclamativi, tante volte in base al volume
